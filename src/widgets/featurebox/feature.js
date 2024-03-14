@@ -16,7 +16,7 @@ const Feature = () => {
                                 </svg>
                             </div>
                             <h5 className="mt-4 mb-3">Creative Design</h5>
-                            <p className="mb-0">Serspiciatis unde omnis iste natus error sit doloremque laudantium, totam rem aperiam.</p>
+                            <p className="mb-0">The art of transforming ideas into visually captivating and memorable expressions.</p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-sm-6">
@@ -28,7 +28,7 @@ const Feature = () => {
                                 </svg>
                             </div>
                             <h5 className="mt-4 mb-3">Easy To Start</h5>
-                            <p className="mb-0">Serspiciatis unde omnis iste natus error sit doloremque laudantium, totam rem aperiam.</p>
+                            <p className="mb-0">It is like a gentle breeze that nudges you forward, inviting you to take the first step on a promising journey.</p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-sm-6 mt-6 mt-sm-0">
@@ -42,7 +42,7 @@ const Feature = () => {
                                 </svg>
                             </div>
                             <h5 className="mt-4 mb-3">Management</h5>
-                            <p className="mb-0">Serspiciatis unde omnis iste natus error sit doloremque laudantium, totam rem aperiam.</p>
+                            <p className="mb-0">Website management involves maintaining, securing, and optimizing a website to ensure it remains professional, up-to-date, and fully functional. </p>
                         </div>
                     </div>
                 </div>

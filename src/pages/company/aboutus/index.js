@@ -32,12 +32,12 @@ const Aboutus = () => {
                 </section>
                 {/*feature end*/}
                 {/*testimonial start*/}
-                <Testimonial1 />
+                {/*<Testimonial1 />*/}
                 {/*testimonial end*/}
                 {/*blog start*/}
                 <section>
                     <div className="container">
-                        <Blog1 />
+                        {/*<Blog1 />*/}
                     </div>
                 </section>
                 {/*blog end*/}

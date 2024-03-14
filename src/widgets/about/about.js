@@ -15,8 +15,8 @@ const About = () => {
                             <span className="badge badge-primary-soft p-2">
                                 <i className="la la-exclamation ic-3x rotation" />
                             </span>
-                            <h2 className="mt-3">We're A Creative Software Landing Page</h2>
-                            <p className="lead">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                            <h2 className="mt-3">We're a creative website designer company</h2>
+                            <p className="lead">We use the latest technologies it like React and Ruby on Rails.</p>
                         </div>
                         <div className="d-flex flex-wrap justify-content-start">
                             <div className="mb-3 me-4 ms-lg-0 me-lg-4">

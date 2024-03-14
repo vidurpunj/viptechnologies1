@@ -30,11 +30,7 @@ const Footer = () => {
                                 <ul className="navbar-nav list-unstyled mb-0">
                                     <li className="mb-3 nav-item"><Link className="nav-link" to="/about-us">About</Link>
                                     </li>
-                                    <li className="mb-3 nav-item"><Link className="nav-link" to="/product-grid">Shop</Link>
-                                    </li>
                                     <li className="mb-3 nav-item"><Link className="nav-link" to="/faq">Faq</Link>
-                                    </li>
-                                    <li className="mb-3 nav-item"><Link className="nav-link" to="/blog-card">Blogs</Link>
                                     </li>
                                     <li className="nav-item"><Link className="nav-link" to="/contact-us">Contact Us</Link>
                                     </li>
@@ -46,8 +42,6 @@ const Footer = () => {
                                     <li className="mb-3 nav-item"><Link className="nav-link" to="#">Content Writing</Link>
                                     </li>
                                     <li className="mb-3 nav-item"><Link className="nav-link" to="#">Documentation</Link>
-                                    </li>
-                                    <li className="mb-3 nav-item"><Link className="nav-link" to="/sign-in">Account</Link>
                                     </li>
                                     <li className="nav-item"><Link className="nav-link" to="/career">Careers</Link>
                                     </li>

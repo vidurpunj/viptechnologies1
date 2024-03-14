@@ -61,7 +61,7 @@ const Header = () => {
                             {/*menu start*/}
                             <div className="col d-flex align-items-center justify-content-between">
                                 <Link className="navbar-brand logo text-dark h2 mb-0" to="/">
-                                    Boots<span className="text-primary font-weight-bold">Land.</span>
+                                    VIP<span className="text-primary font-weight-bold">Technologies</span>
                                 </Link>
                                 <Navbar className="navbar-expand-lg navbar-light ms-auto">
                                     <NavbarToggler onClick={toggle} className='ms-auto' />
@@ -117,9 +117,6 @@ const Header = () => {
                                         </Nav>
                                     </Collapse>
                                 </Navbar>
-                                <Link className="btn btn-primary ms-8 d-none d-lg-block" to="/">
-                                    Buy Now
-                                </Link>
                             </div>
                             {/*menu end*/}
                         </div>

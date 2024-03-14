@@ -22,11 +22,11 @@ const Memberaboutus = () => {
                     <span className="badge badge-primary-soft p-2">
                         <i className="la la-exclamation ic-3x rotation" />
                     </span>
-                    <h2 className="mt-3 font-w-5">Bootsland Small Team Crafting Beautiful Experience</h2>
-                    <p className="lead">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-                    <p className="mb-0">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    <h2 className="mt-3 font-w-5">VIPTechnologies is small team crafting beautiful experience</h2>
+                    <p className="lead">We use the latest technologies like React, Ruby on Rails.</p>
+                    <p className="mb-0">We use the latest technologies to blend web and app experiences seamlessly.</p>
                 </div>
-                <Counter4 />
+                {/*<Counter4 />*/}
             </div>
         </div>
     );

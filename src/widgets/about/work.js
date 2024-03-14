@@ -14,19 +14,19 @@ const Work = () => {
                             <Badge color="primary" className="p-2">
                                 <i className="la la-exclamation ic-3x rotation" />
                             </Badge>
-                            <h2 className="mt-3">Bootsland Focus on your success</h2>
+                            <h2 className="mt-3">VIPTechnologies Focus on your success</h2>
                             <p className="lead mb-5">
-                                We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.
+                                We use the latest technologies like React and Ruby on Rails.
                             </p>
                         </div>
                         <div className="d-flex align-items-center">
                             <img
                                 alt="testimage"
-                                src={require('../../assets/images/testimonial/01.jpg')}
+                                src={require('../../assets/images/testimonial/vidurpunj.jpg')}
                                 className="shadow-primary img-fluid rounded-circle d-inline me-3"
                             />
                             <div>
-                                <h5>Kendra Law</h5>
+                                <h5>Vidur Punj</h5>
                                 <span className="text-muted">Web Developer</span>
                             </div>
                         </div>

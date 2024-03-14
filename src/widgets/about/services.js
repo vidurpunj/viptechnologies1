@@ -26,27 +26,27 @@ const Services = () => {
         {
             icon: icon01,
             title: 'App Development',
-            description: 'Serspiciatis unde omnis iste natus laudantium, totam rem aperiam.',
+            description: 'Whether it’s crafting a sleek mobile app, a game, or a productivity tool, app development bridges creativity and technology to shape the digital landscape.',
         },
         {
             icon: icon02,
             title: 'Clean Code',
-            description: 'Serspiciatis unde omnis iste natus laudantium, totam rem aperiam.',
+            description: ' It’s code that’s easy to read, maintain, understand, and change.',
         },
         {
             icon: icon03,
-            title: 'Software Development',
-            description: 'Serspiciatis unde omnis iste natus laudantium, totam rem aperiam.',
+            title: 'Website Development',
+            description: 'For a successful website, each step plays a crucial role in creating a seamless user experience and ensuring the site’s functionality and performance.',
         },
         {
             icon: icon04,
             title: 'Easy to customize',
-            description: 'Serspiciatis unde omnis iste natus laudantium, totam rem aperiam.',
+            description: 'Certainly! When it comes to design and functionality, a website or software that is easy to customize is like a well-tailored suit.',
         },
         {
             icon: icon05,
             title: '24/7 Support',
-            description: 'Serspiciatis unde omnis iste natus laudantium, totam rem aperiam.',
+            description: 'Whether it’s troubleshooting technical issues, addressing inquiries, or resolving concerns, 24/7 support is a critical component of excellent customer service in today’s digital-first world.',
         },
     ];
 
@@ -59,7 +59,7 @@ const Services = () => {
                             <span className="badge badge-primary-soft p-2">
                                 <i className="la la-cubes ic-3x rotation" />
                             </span>
-                            <h2 className="mt-3 mb-0">One Platform, Deep Insight Why Choose Bootsland</h2>
+                            <h2 className="mt-3 mb-0">One Platform, Deep Insight Why Choose VIPTechnologies</h2>
                         </div>
                     </Col>
                     {serviceItems.map((item, index) => (

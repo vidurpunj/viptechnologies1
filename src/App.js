@@ -2,17 +2,9 @@ import {Route, Routes, useLocation} from 'react-router-dom';
 import './App.css';
 import Footer from './Layout/Footer/Footer';
 import Header from './Layout/Header/Header';
+import './Vendor.js'
 import {Fragment} from 'react';
 import Index from './pages/Index/index1';
-import Index2 from './pages/Index/index2';
-import Index3 from './pages/Index/index3';
-import Index4 from './pages/Index/index4';
-import Index5 from './pages/Index/index5';
-import Index6 from './pages/Index/index6';
-import Index7 from './pages/Index/index7';
-import Index8 from './pages/Index/index8';
-import Index9 from './pages/Index/index9';
-import Index10 from './pages/Index/index10';
 import Aboutus from './pages/company/aboutus';
 import Aboutus2 from './pages/company/aboutus2';
 import Career from './pages/company/career';
@@ -122,16 +114,6 @@ function App() {
 
                         <Routes>
                             <Route exact path="/" element={<Index/>}/>
-                            <Route exact path="/index2" element={<Index2/>}/>
-                            <Route exact path="/index3" element={<Index3/>}/>
-                            <Route exact path="/index4" element={<Index4/>}/>
-                            <Route exact path="/index5" element={<Index5/>}/>
-                            <Route exact path="/index6" element={<Index6/>}/>
-                            <Route exact path="/index7" element={<Index7/>}/>
-                            <Route exact path="/index8" element={<Index8/>}/>
-                            <Route exact path="/index9" element={<Index9/>}/>
-                            <Route exact path="/index10" element={<Index10/>}/>
-
                             {/* Company Pages */}
                             <Route path="/about-us" element={<Aboutus/>}/>
                             <Route path="/about-us2" element={<Aboutus2/>}/>

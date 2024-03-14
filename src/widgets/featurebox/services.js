@@ -10,7 +10,8 @@ function FeatureServices() {
                         <CardImg top src={require('../../assets/images/svg/01.svg').default} alt="testimage" />
                         <CardBody>
                             <CardTitle tag="h5" className="mt-4 mb-3">Creative UI/UX 1</CardTitle>
-                            <CardText>Serspiciatis unde omnis iste natus error sit doloremque laudantium, totam rem aperiam.</CardText>
+                            <CardText>“Pixels whisper stories, buttons hum melodies.”
+                                </CardText>
                             <Link to="#" className="btn-link" style={{ textDecoration: 'none' }}>Read Details</Link>
                         </CardBody>
                     </Card>
@@ -20,7 +21,7 @@ function FeatureServices() {
                         <CardImg top src={require('../../assets/images/svg/02.svg').default} alt="testimage" />
                         <CardBody>
                             <CardTitle tag="h5" className="mt-4 mb-3">Flexibility</CardTitle>
-                            <CardText>Serspiciatis unde omnis iste natus error sit doloremque laudantium, totam rem aperiam.</CardText>
+                            <CardText>Flexible design bends, but never breaks.</CardText>
                             <Link to="#" className="btn-link" style={{ textDecoration: 'none' }}>Read Details</Link>
                         </CardBody>
                     </Card>
@@ -30,7 +31,7 @@ function FeatureServices() {
                         <CardImg top src={require('../../assets/images/svg/03.svg').default} alt="testimage" />
                         <CardBody>
                             <CardTitle tag="h5" className="mt-4 mb-3">Easy Code</CardTitle>
-                            <p>Serspiciatis unde omnis iste natus error sit doloremque laudantium, totam rem aperiam.</p>
+                            <p>Clean code whispers simplicity; easy to read, easier to maintain.</p>
                             <Link to="#" className="btn-link" >Read Details</Link>
 
                         </CardBody>

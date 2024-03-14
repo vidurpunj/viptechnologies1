@@ -18,8 +18,8 @@ function Index() {
                 <About />
                 <Services />
                 <Work />
-                <Testimonial1 />
-                <Blog1 />
+                {/*<Testimonial1 />*/}
+                {/*<Blog1 />*/}
             </div>
         </div>
     )

@@ -11,9 +11,9 @@ const Contact1 = () => {
     return (
         <div>
             {/* hero section start */}
-            <section className="position-relative">
-                <Pageheading foldername="Company" title="Contact Us" />
-            </section>
+            {/*<section className="position-relative">*/}
+            {/*    <Pageheading foldername="Company" title="Contact Us" />*/}
+            {/*</section>*/}
             {/* hero section end */}
             {/* body content start */}
             <div className="page-content">
@@ -38,7 +38,7 @@ const Contact1 = () => {
                                         <circle cx={12} cy={10} r={3} />
                                     </svg>
                                     <h4 className="mt-5">Address:</h4>
-                                    <span className="text-black">423B, Road Wordwide Country, USA</span>
+                                    <span className="text-black">J-004, Maceo, Sector 91, Gurgaon</span>
                                 </div>
                             </Col>
                             <Col lg="4" md="6" className='pb-5'>
@@ -59,7 +59,7 @@ const Contact1 = () => {
                                         <polyline points="22,6 12,13 2,6" />
                                     </svg>
                                     <h4 className="mt-5">Email Us</h4>
-                                    <Link to="mailto:skytouchinfotech01@gmail.com"> skytouchinfotech01@gmail.com</Link>
+                                    <Link to="mailto:skytouchinfotech01@gmail.com">vidur.punj@hotmail.com</Link>
                                 </div>
                             </Col>
                             <Col lg="4" md="6" className='pb-5'>
@@ -79,7 +79,7 @@ const Contact1 = () => {
                                         <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
                                     </svg>
                                     <h4 className="mt-5">Phone Number</h4>
-                                    <Link to="tel:+912345678900">+91-234-567-8900</Link>
+                                    <Link to="tel:+912345678900">+91-9541-555-660</Link>
                                 </div>
                             </Col>
                         </Row>
