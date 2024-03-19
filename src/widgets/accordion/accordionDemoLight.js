@@ -5,7 +5,8 @@ import {
     AccordionItemButton,
     AccordionItemPanel,
 } from 'react-accessible-accordion';
-import { Col } from 'reactstrap';
+import {Col} from 'reactstrap';
+
 function AccordionDemoLight() {
     return (
         <Col xs="12" lg="6" xl="5">
@@ -21,37 +22,38 @@ function AccordionDemoLight() {
             <Accordion allowZeroExpanded>
                 <AccordionItem className="bg-transparent border mb-4">
                     <AccordionItemButton>
-                        When our power of choice Bootsland ?
+                        What is responsive web design?
                     </AccordionItemButton>
                     <AccordionItemPanel>
                         <div className="accordion-body text-muted">
-                            Looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
-                            the cites of the word in classical literature, discovered Many desktop publishing packages and web page
-                            editors now use Nor again is there anyone who loves or pursues or desires to obtain pain of itself.
+                            Responsive web design is an approach to web design that makes web pages render well on a
+                            variety of devices and window or screen sizes. It provides an optimal viewing experience
+                            across a wide range of devices, from desktop computer monitors to mobile phones.
+
                         </div>
                     </AccordionItemPanel>
                 </AccordionItem>
                 <AccordionItem className="bg-transparent border mb-4">
                     <AccordionItemButton>
-                        Nam libero tempore, cum soluta nobis ?
+                        How long does it take to build a website?
                     </AccordionItemButton>
                     <AccordionItemPanel>
                         <div className="accordion-body text-muted">
-                            Looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
-                            the cites of the word in classical literature, discovered Many desktop publishing packages and web page
-                            editors now use Nor again is there anyone who loves or pursues or desires to obtain pain of itself.
+                            The time it takes to build a website can vary widely, depending on the complexity of the
+                            site and the skills of the web developer(s). A simple website might take a few weeks, while
+                            a complex e-commerce website might take several months to a year.
                         </div>
                     </AccordionItemPanel>
                 </AccordionItem>
                 <AccordionItem className="bg-transparent border">
                     <AccordionItemButton>
-                        which is the same as saying through ?
+                        What is a Content Management System (CMS)?
                     </AccordionItemButton>
                     <AccordionItemPanel>
                         <div className="accordion-body text-muted">
-                            Looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
-                            the cites of the word in classical literature, discovered Many desktop publishing packages and web page
-                            editors now use Nor again is there anyone who loves or pursues or desires to obtain pain of itself.
+                            A CMS is a software application that allows users to build and manage a website without
+                            having to code it from scratch, or even know how to code at all. The most popular CMS is
+                            WordPress, but there are many others like Joomla and Drupal.
                         </div>
                     </AccordionItemPanel>
                 </AccordionItem>

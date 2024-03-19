@@ -126,7 +126,7 @@ const Header = () => {
                 <div id="ht-preloader">
                     <div className="loader clear-loader">
                         <span />
-                        <p>BootsLand</p>
+                        <p>VIPTechnologies</p>
                     </div>
                 </div>
             )}

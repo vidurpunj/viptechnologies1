@@ -28,18 +28,6 @@ const Faq = () => {
                         </div>
                     </div>
                 </section>
-                <section>
-                    <div className="container">
-                        <div className="row align-items-center justify-content-between">
-                            <div className="col-12 col-lg-6 mb-8 mb-lg-0 order-lg-1">
-                                <img src={require('../../../assets/images/about/04.png')} alt="testimage" className="img-fluid" />
-                            </div>
-                            <div className="col-12 col-lg-6 col-xl-5">
-                                <AccordionDemo />
-                            </div>
-                        </div>
-                    </div>
-                </section>
             </div>
             {/* body content end */}
         </div>

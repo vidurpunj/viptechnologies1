@@ -39,10 +39,6 @@ const Footer = () => {
                             <Col className="col-12 col-sm-4 mt-6 mt-sm-0 navbar-dark">
                                 <h5 className="mb-4 text-white">Service</h5>
                                 <ul className="navbar-nav list-unstyled mb-0">
-                                    <li className="mb-3 nav-item"><Link className="nav-link" to="#">Content Writing</Link>
-                                    </li>
-                                    <li className="mb-3 nav-item"><Link className="nav-link" to="#">Documentation</Link>
-                                    </li>
                                     <li className="nav-item"><Link className="nav-link" to="/career">Careers</Link>
                                     </li>
                                 </ul>
@@ -54,7 +50,7 @@ const Footer = () => {
                                     </li>
                                     <li className="mb-3 nav-item"><Link className="nav-link" to="/privacy-policy">Privacy Policy</Link>
                                     </li>
-                                    <li className="nav-item"><Link className="nav-link" to="#">Support</Link>
+                                    <li className="nav-item"><Link className="nav-link" to="/contact-us">Support</Link>
                                     </li>
                                 </ul>
                             </Col>
@@ -62,12 +58,16 @@ const Footer = () => {
                         <Row className="mt-5">
                             <Col className="col-12 col-sm-6">
                                 <Link className="footer-logo text-white h2 mb-0" style={{ textDecoration: 'none' }} to="/">
-                                    Boots<span className="font-weight-bold">Land.</span>
+                                    VIP<span className="font-weight-bold">Technologies.</span>
                                 </Link>
                             </Col>
                             <Col className="col-12 col-sm-6 mt-6 mt-sm-0">
                                 <ul className="list-inline mb-0">
-                                    <li className="list-inline-item"><Link className="text-light ic-2x" to="#"><i className="la la-facebook" /></Link>
+                                    <li className="list-inline-item">
+                                        <Link className="text-light ic-2x" passHref to="https://www.facebook.com/profile.php?id=61557417155903&is_tour_completed=true">
+                                        <i className="la la-facebook" />
+                                        <a target="_blank"></a>
+                                    </Link>
                                     </li>
                                     <li className="list-inline-item"><Link className="text-light ic-2x" to="#"><i className="la la-dribbble" /></Link>
                                     </li>
@@ -84,7 +84,7 @@ const Footer = () => {
                 </Row>
                 <Row className="text-white text-center mt-8">
                     <Col>
-                        <hr className="mb-8" />Copyright 2020 Bootsland Theme by <u><Link className="text-white" to="#">Skytouch Infotech</Link></u> | All Rights Reserved
+                        <hr className="mb-8" />Copyright 2024 VIPTechnologies  | All Rights Reserved
                     </Col>
                 </Row>
             </Container>

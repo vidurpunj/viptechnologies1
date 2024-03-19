@@ -93,7 +93,7 @@ const Contact1 = () => {
                                     <span className="badge badge-primary-soft p-2">
                                         <i className="la la-bold ic-3x rotation" />
                                     </span>
-                                    <h2 className="mt-4 mb-0">Drop A Line</h2>
+                                    <h2 className="mt-4 mb-0">Contact Us & Support</h2>
                                     <p className="lead mb-0">Get in touch and let us know how we can help. Fill out the form and we’ll be in touch as soon as possible.</p>
                                 </div>
                             </Col>
