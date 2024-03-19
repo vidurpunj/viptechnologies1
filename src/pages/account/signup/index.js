@@ -23,7 +23,7 @@ const SignUp = () => {
                                         <i className="la la-exclamation ic-3x rotation" />
                                     </span>
                                     <h2 className="mt-3">Simple And Easy To Sign Up</h2>
-                                    <p className="lead">We use the latest technologies it voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                                    <p className="lead">Sign up today to unlock exclusive access and join our community of empowered individuals.</p>
                                 </div>
                             </Col>
                         </Row>

@@ -19,12 +19,6 @@ const Herosection = () => {
                 {/* Text */}
                 <p className="lead text-muted">Build a Beautiful, Clean &amp; Modern Design website with flexible components.</p>
                 {/* Buttons */}
-                <Link to="/" className="btn btn-primary shadow me-1">
-                    Learn More
-                </Link>
-                <Link to="/" className="btn btn-outline-primary">
-                    Get Started
-                </Link>
                 <Clientlogo logoitems={4} margintop={10} />
             </div>
         </div>
