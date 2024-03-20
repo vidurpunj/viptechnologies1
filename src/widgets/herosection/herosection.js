@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { Col } from 'reactstrap';
 import Clientlogo from '../common/clientlogo';
 

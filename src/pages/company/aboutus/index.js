@@ -1,9 +1,7 @@
 import React, { useEffect } from 'react';
-import Blog1 from '../../../widgets/blog/blog1';
 import Pageheading from '../../../widgets/PageHeading';
 import Memberaboutus from '../../../widgets/about/Memberaboutus';
 import FeatureServices from '../../../widgets/featurebox/services';
-import Testimonial1 from '../../../widgets/testimonial/testimonial1';
 
 
 const Aboutus = () => {

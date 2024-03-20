@@ -1,70 +1,194 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+import React, {Component} from 'react';
+import {Link} from 'react-router-dom';
+import axios from 'axios';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 class SignUpForm extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            first_name: "",
+            last_name: "",
+            email: "",
+            phone: "",
+            password: "",
+            confirm_password: "",
+            gender: "",
+            country: ""
+        };
+    }
+
+    handleInputChange = (event) => {
+        console.log('Set value..')
+        const {name, value} = event.target;
+        this.setState({[name]: value});
+    };
+
+    handleSubmit = (event) => {
+        event.preventDefault();
+        // You can perform form submission logic here
+        console.log("**********Form submitted:********", this.state);
+
+        const apiUrl = 'http://localhost:3000/signup';
+
+        const postData = {
+            first_name: this.state.first_name,
+            last_name: this.state.last_name,
+            email: this.state.email,
+            phone: this.state.phone,
+            password: this.state.password,
+            confirmation_password: this.state.confirm_password,
+            gender: this.state.gender,
+            country: this.state.country,
+            terms_and_condition: this.state.terms_and_condition
+        };
+        axios.post(apiUrl, postData)
+            .then((response) => {
+                console.log('Response data:', response.data);
+                // Handle the response data as needed
+                toast.success('Operation successful!');
+            })
+            .catch((error) => {
+                console.error('Error making POST request:', error);
+                // Handle errors appropriately
+                toast.error('An error occurred.');
+            });
+
+        // Reset form fields if needed
+        this.setState({
+            first_name: "",
+            last_name: "",
+            email: "",
+            phone: "",
+            password: "",
+            confirmation_password: "",
+            gender: "",
+            country: "",
+            terms_and_condition: ""
+        });
+    };
+
     render() {
         return (
             <div className="row">
                 <div className="col-lg-8 col-md-10 ms-auto me-auto">
                     <div className="register-form text-center">
-                        <form id="contact-form" method="post" action="php/contact.php">
-                            <div className="messages" />
+                        <form id="contact-form" method="post" onSubmit={this.handleSubmit}>
+                            <div className="messages"/>
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <input id="form_name" type="text" name="name" className="form-control" placeholder="First name" required="required" data-error="Firstname is required." />
-                                        <div className="help-block with-errors" />
+                                        <input id="first_name"
+                                               type="text"
+                                               name="first_name"
+                                               className="form-control"
+                                               placeholder="First name"
+                                               required="required"
+                                               value={this.state.first_name}
+                                               onChange={this.handleInputChange}
+                                               data-error="Firstname is required."/>
+                                        <div className="help-block with-errors"/>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <input id="form_lastname" type="text" name="surname" className="form-control" placeholder="Last name" required="required" data-error="Lastname is required." />
-                                        <div className="help-block with-errors" />
+                                        <input id="last_name"
+                                               type="text"
+                                               name="last_name"
+                                               className="form-control"
+                                               placeholder="Last name"
+                                               required="required"
+                                               value={this.state.last_name}
+                                               onChange={this.handleInputChange}
+                                               data-error="Lastname is required."/>
+                                        <div className="help-block with-errors"/>
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <input id="form_email" type="email" name="email" className="form-control" placeholder="Email" required="required" data-error="Valid email is required." />
-                                        <div className="help-block with-errors" />
+                                        <input id="email"
+                                               type="email"
+                                               name="email"
+                                               className="form-control"
+                                               placeholder="Email"
+                                               required="required"
+                                               value={this.state.email}
+                                               onChange={this.handleInputChange}
+                                               data-error="Valid email is required."/>
+                                        <div className="help-block with-errors"/>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <input id="form_phone" type="tel" name="phone" className="form-control" placeholder="Phone" required="required" data-error="Phone is required" />
-                                        <div className="help-block with-errors" />
+                                        <input id="phone"
+                                               type="tel"
+                                               name="phone"
+                                               className="form-control"
+                                               placeholder="Phone"
+                                               required="required"
+                                               value={this.state.phone}
+                                               onChange={this.handleInputChange}
+                                               data-error="Phone is required"/>
+                                        <div className="help-block with-errors"/>
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <input id="form_password" type="password" name="password" className="form-control" placeholder="Password" required="required" data-error="password is required." />
-                                        <div className="help-block with-errors" />
+                                        <input id="password"
+                                               type="password"
+                                               name="password"
+                                               className="form-control"
+                                               placeholder="Password"
+                                               required="required"
+                                               value={this.state.password}
+                                               onChange={this.handleInputChange}
+                                               data-error="password is required."/>
+                                        <div className="help-block with-errors"/>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <input id="form_password1" type="password" name="password" className="form-control" placeholder="Conform Password" required="required" data-error="Conform Password is required." />
-                                        <div className="help-block with-errors" />
+                                        <input id="confirm_password"
+                                               type="password"
+                                               name="confirm_password"
+                                               className="form-control"
+                                               placeholder="Conform Password"
+                                               required="required"
+                                               value={this.state.confirm_password}
+                                               onChange={this.handleInputChange}
+                                               data-error="Conform Password is required."/>
+                                        <div className="help-block with-errors"/>
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <select className="form-control">
+                                        <select className="form-control"
+                                                name="gender"
+                                                value={this.state.gender}
+                                                onChange={this.handleInputChange}
+                                        >
                                             <option selected>Gender</option>
                                             <option value="male">Male</option>
                                             <option value="female">Female</option>
                                         </select>
-                                        <div className="help-block with-errors" />
+                                        <div className="help-block with-errors"/>
                                     </div>
                                 </div>
                                 <div className="col-md-6">
                                     <div className="form-group">
-                                        <select className="form-control">
+                                        <select className="form-control"
+                                                name="country"
+                                                value={this.state.country}
+                                                onChange={this.handleInputChange}
+                                        >
                                             <option value="Country">Select Country...</option>
                                             <option value="AF">Afghanistan</option>
                                             <option value="AL">Albania</option>
@@ -314,7 +438,7 @@ class SignUpForm extends Component {
                                             <option value="ZM">Zambia</option>
                                             <option value="ZW">Zimbabwe</option>
                                         </select>
-                                        <div className="help-block with-errors" />
+                                        <div className="help-block with-errors"/>
                                     </div>
                                 </div>
                             </div>
@@ -322,15 +446,21 @@ class SignUpForm extends Component {
                                 <div className="col-md-12">
                                     <div className="remember-checkbox clearfix mb-5">
                                         <div className="custom-control custom-checkbox">
-                                            <input type="checkbox" className="custom-control-input" id="customCheck1" />
-                                            <label className="custom-control-label" htmlFor="customCheck1">I agree to the term of use and privacy policy</label>
+                                            <input type="checkbox"
+                                                   className="custom-control-input"
+                                                   id="terms_and_condition"
+                                                   value={this.state.terms_and_condition}
+                                                   onChange={this.handleInputChange}
+                                            />
+                                            <label className="custom-control-label" htmlFor="customCheck1">I agree to
+                                                the term of use and privacy policy</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-md-12">
-                                    <Link to="/sign-up" className="btn btn-primary">Create Account</Link>
+                                    <button type="submit" className="btn btn-primary">Create Account</button>
                                     <span className="mt-4 d-block">Have An Account ? <Link to="/sign-in"><i>Sign In!</i></Link></span>
                                 </div>
                             </div>

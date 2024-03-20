@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Col, Container, Row } from 'reactstrap';
-import Pageheading from '../../../widgets/PageHeading';
 import ContactForm1 from '../../../widgets/contact/ContactForm1';
 import { Link } from 'react-router-dom';
 const Contact1 = () => {
