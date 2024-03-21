@@ -46,28 +46,29 @@ class SignUpForm extends Component {
         };
         axios.post(apiUrl, postData)
             .then((response) => {
-                console.log('Response data:', response.data);
-                // Handle the response data as needed
-                toast.success('Operation successful!');
+                if(response.data.status === 500){
+                    toast.error(response.data.error);
+                }else if(response.data.status === 200) {
+                    toast.success(response.data.message);
+                    // Reset form fields if needed
+                    this.setState({
+                        first_name: "",
+                        last_name: "",
+                        email: "",
+                        phone: "",
+                        password: "",
+                        confirmation_password: "",
+                        gender: "",
+                        country: "",
+                        terms_and_condition: ""
+                    });
+                }
             })
             .catch((error) => {
                 console.error('Error making POST request:', error);
                 // Handle errors appropriately
                 toast.error('An error occurred.');
             });
-
-        // Reset form fields if needed
-        this.setState({
-            first_name: "",
-            last_name: "",
-            email: "",
-            phone: "",
-            password: "",
-            confirmation_password: "",
-            gender: "",
-            country: "",
-            terms_and_condition: ""
-        });
     };
 
     render() {
@@ -449,6 +450,7 @@ class SignUpForm extends Component {
                                             <input type="checkbox"
                                                    className="custom-control-input"
                                                    id="terms_and_condition"
+                                                   name="terms_and_condition"
                                                    value={this.state.terms_and_condition}
                                                    onChange={this.handleInputChange}
                                             />

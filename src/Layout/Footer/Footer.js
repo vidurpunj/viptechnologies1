@@ -46,6 +46,10 @@ const Footer = () => {
                                 <ul className="navbar-nav list-unstyled mb-0">
                                     <li className="nav-item"><Link className="nav-link" to="/career">Careers</Link>
                                     </li>
+                                    <li className="nav-item"><Link className="nav-link" to="/sign-up">Sign Up</Link>
+                                    </li>
+                                    <li className="nav-item"><Link className="nav-link" to="/sign-in">Sign In</Link>
+                                    </li>
                                 </ul>
                             </Col>
                             <Col className="col-12 col-sm-4 mt-6 mt-sm-0 navbar-dark">
