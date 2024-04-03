@@ -31,8 +31,8 @@ class SignUpForm extends Component {
         // You can perform form submission logic here
         console.log("**********Form submitted:********", this.state);
 
-        const apiUrl = 'http://localhost:3000/signup';
-
+        const apiUrl = `${window.env.REACT_APP_API}/signup`;
+        console.log(apiUrl);
         const postData = {
             first_name: this.state.first_name,
             last_name: this.state.last_name,

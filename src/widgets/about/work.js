@@ -16,7 +16,7 @@ const Work = () => {
                             </Badge>
                             <h2 className="mt-3">VIPTechnologies Focus on your success</h2>
                             <p className="lead mb-5">
-                                We use the latest technologies like React and Ruby on Rails.
+                                We use the latest technologies like React and Ruby on Rails and Java.
                             </p>
                         </div>
                         <div className="d-flex align-items-center">
@@ -28,6 +28,24 @@ const Work = () => {
                             <div>
                                 <h5>Vidur Punj</h5>
                                 <span className="text-muted">Web Developer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="row align-items-center justify-content-between">
+                    <div className="col-12 col-lg-6 order-lg-2 mb-6 mb-lg-0">
+                        <img src={require('../../assets/images/about/02.png')} alt="testimage" className="img-fluid" />
+                    </div>
+                    <div className="col-12 col-lg-6 col-xl-5 order-lg-1">
+                        <div className="d-flex align-items-center">
+                            <img
+                                alt="testimage"
+                                src={require('../../assets/images/testimonial/ManishSharma.jpg')}
+                                className="shadow-primary img-fluid rounded-circle d-inline me-3"
+                            />
+                            <div>
+                                <h5>Vidur Punj</h5>
+                                <span className="text-muted">Technicle Architect</span>
                             </div>
                         </div>
                     </div>

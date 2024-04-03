@@ -57,7 +57,7 @@ const ContactForm1 = () => {
                     </FormGroup>
                     <FormGroup className="col-md-6">
                         <Input type="select" className="form-control">
-                            <option>- Select Service</option>
+                            <option>Select Service</option>
                             <option>Consulting</option>
                             <option>Finance</option>
                             <option>Marketing</option>
