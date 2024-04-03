@@ -55,5 +55,5 @@ window.env = {
   "WSLENV": "WT_SESSION:WT_PROFILE_ID:",
   "INIT_CWD": "/home/vidur/react_apps/viptechnologies1",
   "EDITOR": "vi",
-  "REACT_APP_API": "https://api.viptechnologies.in"
+  "REACT_APP_API": "http://localhost:3001"
 };

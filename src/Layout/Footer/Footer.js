@@ -2,13 +2,34 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import {Col, Container, Row} from 'reactstrap';
 import { useState } from 'react';
+import axios from "axios";
+import {toast} from "react-toastify";
 
 const Footer = () => {
-
     const [email, setEmail] = useState('');
+    const apiUrl = `${window.env.REACT_APP_API}/news_letter/subscribe`;
+    const postData = {
+        email: email
+    }
+    console.log(postData);
 
     const handleSubmit = () => {
         console.log('subscribe to new letter');
+        axios.post(apiUrl, postData)
+            .then((response) => {
+                if(response.data.status === 500){
+                    toast.error(response.data.error);
+                }else if(response.data.status === 200) {
+                    toast.success(response.data.message);
+                    // Reset form fields if needed
+                    this.setState({
+                        email: "",
+                    });
+                }
+            })
+            .catch((error) => {
+
+            });
     }
 
     return (
