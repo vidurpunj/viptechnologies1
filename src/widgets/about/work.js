@@ -16,7 +16,9 @@ const Work = () => {
                             </Badge>
                             <h2 className="mt-3">VIPTechnologies Focus on your success</h2>
                             <p className="lead mb-5">
-                                We use the latest technologies like React and Ruby on Rails and Java.
+                                We use the latest technologies for:
+                               <br/>  Frontend: React and Angular
+                                <br/> Backend: Ruby on Rails and Java
                             </p>
                         </div>
                         <div className="d-flex align-items-center">

@@ -1,8 +1,16 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {Col, Container, Row} from 'reactstrap';
+import { useState } from 'react';
 
 const Footer = () => {
+
+    const [email, setEmail] = useState('');
+
+    const handleSubmit = () => {
+        console.log('subscribe to new letter');
+    }
+
     return (
         <footer className="py-11 bg-primary position-relative" data-bg-img="../../assets/images/bg/03.png">
             <div className="shape-1" style={{height: '150px', overflow: 'hidden'}}>
@@ -17,11 +25,18 @@ const Footer = () => {
                         <div className="subscribe-form bg-warning-soft p-5 rounded">
                             <h5 className="mb-4 text-white">Newsletter</h5>
                             <h6 className="text-light">Subscribe Our Newsletter</h6>
-                            <form id="mc-form" className="group">
-                                <input type="email" name="EMAIL" className="email form-control" id="mc-email"
-                                       placeholder="Email Address" required style={{height: '60px'}}/>
+                            <form id="mc-form" className="group" method="post" onSubmit={e => e.preventDefault()}>
+                                <input type="email"
+                                       name="EMAIL"
+                                       className="email form-control"
+                                       id="mc-email"
+                                       placeholder="Email Address"
+                                       required style={{height: '60px'}}
+                                       value={email}
+                                       onChange={(e) => setEmail(e.target.value)}
+                                />
                                 <input className="btn btn-outline-light btn-block mt-3 mb-2" type="submit"
-                                       name="subscribe" defaultValue="Subscribe"/>
+                                       name="subscribe" defaultValue="Subscribe" onClick={handleSubmit}/>
                             </form>
                             <small className="text-light">Get started for 1 Month free trial No Purchace
                                 required.</small>
