@@ -44,8 +44,8 @@ const Work = () => {
                                 className="shadow-primary img-fluid rounded-circle d-inline me-3"
                             />
                             <div>
-                                <h5>Vidur Punj</h5>
-                                <span className="text-muted">Technicle Architect</span>
+                                <h5>Manish Sharma</h5>
+                                <span className="text-muted">Technical Architect</span>
                             </div>
                         </div>
                     </div>
