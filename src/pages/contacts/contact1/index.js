@@ -40,7 +40,7 @@ const Contact1 = () => {
                                     <h4 className="mt-5">Address:</h4>
                                     <span className="text-black">J-004, Maceo, Sector 91, Gurgaon</span>
                                     <br/>
-                                    <span className="text-black">Real de pena, 25256 Saltillo, Coah, Mexico</span>
+                                    <span className="text-black">La Caridad 173, Real de pena, 25256 Saltillo, Coah, Mexico</span>
                                 </div>
                             </Col>
                             <Col lg="4" md="6" className='pb-5'>
@@ -62,7 +62,8 @@ const Contact1 = () => {
                                         <polyline points="22,6 12,13 2,6"/>
                                     </svg>
                                     <h4 className="mt-5">Email Us</h4>
-                                    <Link to="mailto:skytouchinfotech01@gmail.com">vidur.punj@hotmail.com</Link>
+                                    <Link to="mailto:vidur.punj@hotmail.com">vidur.punj@hotmail.com</Link>
+                                    <Link to="mailto:er.manish467@gmail.com">er.manish467@gmail.com</Link>
                                 </div>
                             </Col>
                             <Col lg="4" md="6" className='pb-5'>
