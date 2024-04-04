@@ -110,7 +110,7 @@ const Header = () => {
                                                     </UncontrolledDropdown>
                                                 ) : (
                                                     <NavItem key={index}>
-                                                        <Link to={navLink.path}>{navLink.menu_title}</Link>
+                                                        <NavLink href={navLink.path}>{navLink.menu_title}</NavLink>
                                                     </NavItem>
                                                 )
                                             )}
