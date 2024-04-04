@@ -20,7 +20,7 @@ window.env = {
   "WAYLAND_DISPLAY": "wayland-0",
   "LOGNAME": "vidur",
   "NAME": "DESKTOP-I1GSQV5",
-  "WSL_INTEROP": "/run/WSL/760_interop",
+  "WSL_INTEROP": "/run/WSL/386579_interop",
   "PULSE_SERVER": "unix:/mnt/wslg/PulseServer",
   "_": "/home/vidur/.nvm/versions/node/v18.17.1/bin/npm",
   "npm_config_prefix": "/home/vidur/.nvm/versions/node/v18.17.1",
@@ -32,7 +32,7 @@ window.env = {
   "PATH": "/home/vidur/react_apps/viptechnologies1/node_modules/.bin:/home/vidur/react_apps/node_modules/.bin:/home/vidur/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/home/vidur/.nvm/versions/node/v18.17.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/vidur/.local/bin:/home/vidur/.yarn/bin:/home/vidur/.config/yarn/global/node_modules/.bin:/home/vidur/.nvm/versions/node/v18.17.1/bin:/home/vidur/.rbenv/shims:/home/vidur/.rbenv/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/150/DTS/Binn/:/mnt/c/Program Files (x86)/Microsoft SQL Server/160/DTS/Binn/:/mnt/c/Program Files/Azure Data Studio/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/Lenovo/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Lenovo/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/Lenovo/.dotnet/tools:/mnt/c/Users/Lenovo/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/Lenovo/AppData/Roaming/npm:/mnt/c/Users/Lenovo/AppData/Roaming/nvm:/mnt/c/Program Files/nodejs:/mnt/c/Program Files/Azure Data Studio/bin:/snap/bin",
   "NODE": "/home/vidur/.nvm/versions/node/v18.17.1/bin/node",
   "npm_package_name": "viptechnologies1",
-  "WT_SESSION": "cf6b9064-1f3b-4e6c-b1a9-c52fbd41c571",
+  "WT_SESSION": "56f37bd7-3c0a-4ec9-84b0-5123b60f4e25",
   "XDG_RUNTIME_DIR": "/run/user/1000/",
   "DISPLAY": ":0",
   "LANG": "C.UTF-8",
@@ -55,5 +55,5 @@ window.env = {
   "WSLENV": "WT_SESSION:WT_PROFILE_ID:",
   "INIT_CWD": "/home/vidur/react_apps/viptechnologies1",
   "EDITOR": "vi",
-  "REACT_APP_API": "http://localhost:3001"
+  "REACT_APP_API": "https://api.viptechnologies.in"
 };

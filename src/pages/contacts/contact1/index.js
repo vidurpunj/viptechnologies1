@@ -63,6 +63,7 @@ const Contact1 = () => {
                                     </svg>
                                     <h4 className="mt-5">Email Us</h4>
                                     <Link to="mailto:vidur.punj@hotmail.com">vidur.punj@hotmail.com</Link>
+                                    <br/>
                                     <Link to="mailto:er.manish467@gmail.com">er.manish467@gmail.com</Link>
                                 </div>
                             </Col>
