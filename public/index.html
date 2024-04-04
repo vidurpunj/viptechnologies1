@@ -120,5 +120,87 @@
 <script id="cookieyes" type="text/javascript"
         src="https://cdn-cookieyes.com/client_data/193be3fc4a456e6cd33db820/script.js"></script>
 <!-- End cookieyes banner -->
+<script>
+
+    // Define dataLayer and the gtag function.
+
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag(){dataLayer.push(arguments);}
+
+
+    // IMPORTANT - DO NOT COPY/PASTE WITHOUT MODIFYING REGION LIST
+
+    // Set default consent for specific regions according to your requirements
+
+    gtag('consent', 'default', {
+
+        'ad_storage': 'denied',
+
+        'ad_user_data': 'denied',
+
+        'ad_personalization': 'denied',
+
+        'analytics_storage': 'denied',
+
+        'regions': [
+            'IN-AN', // Andaman and Nicobar Islands
+            'IN-AP', // Andhra Pradesh
+            'IN-AR', // Arunāchal Pradesh
+            'IN-AS', // Assam
+            'IN-BR', // Bihār
+            'IN-CH', // Chandīgarh
+            'IN-CG', // Chhattīsgarh
+            'IN-DH', // Dādra and Nagar Haveli and Damān and Diu
+            'IN-DL', // Delhi
+            'IN-GA', // Goa
+            'IN-GJ', // Gujarāt
+            'IN-HR', // Haryāna
+            'IN-HP', // Himāchal Pradesh
+            'IN-JK', // Jammu and Kashmīr
+            'IN-JH', // Jhārkhand
+            'IN-KA', // Karnātaka
+            'IN-KL', // Kerala
+            'IN-LA', // Ladākh
+            'IN-LD', // Lakshadweep
+            'IN-MP', // Madhya Pradesh
+            'IN-MH', // Mahārāshtra
+            'IN-MN', // Manipur
+            'IN-ML', // Meghālaya
+            'IN-MZ', // Mizoram
+            'IN-NL', // Nāgāland
+            'IN-OD', // Odisha
+            'IN-PY', // Puducherry (Local variant: Pondicherry)
+            'IN-PB', // Punjab
+            'IN-RJ', // Rājasthān
+            'IN-SK', // Sikkim
+            'IN-TN', // Tamil Nādu
+            'IN-TS', // Telangāna
+            'IN-TR', // Tripura
+            'IN-UP', // Uttar Pradesh
+            'IN-UK', // Uttarākhand
+            'IN-WB'  // West Bengal
+        ]
+
+    });
+
+    // Set default consent for all other regions according to your requirements
+
+    gtag('consent', 'default', {
+
+        'ad_storage': 'denied',
+
+        'ad_user_data': 'denied',
+
+        'ad_personalization': 'denied',
+
+        'analytics_storage': 'denied'
+
+    });
+
+
+</script>
+
+<!--Banner script here!-->
 </body>
 </html>
