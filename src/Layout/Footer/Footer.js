@@ -117,13 +117,13 @@ const Footer = () => {
                                             <i className="la la-facebook"/>
                                         </Link>
                                     </li>
-                                    <li className="list-inline-item"><Link className="text-light ic-2x" to="#"><i
+                                    <li className="list-inline-item"><Link className="text-light ic-2x" to="https://www.instagram.com/viptechnologies.admin/"><i
                                         className="la la-instagram"/></Link>
                                     </li>
                                     <li className="list-inline-item"><Link className="text-light ic-2x" to="#"><i
                                         className="la la-twitter"/></Link>
                                     </li>
-                                    <li className="list-inline-item"><Link className="text-light ic-2x" to="#"><i
+                                    <li className="list-inline-item"><Link className="text-light ic-2x" to="https://www.linkedin.com/in/vidur-punj-2a9979302/"><i
                                         className="la la-linkedin"/></Link>
                                     </li>
                                 </ul>
