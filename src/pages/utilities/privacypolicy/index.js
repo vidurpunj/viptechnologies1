@@ -1,19 +1,21 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Pageheading from '../../../widgets/PageHeading';
 
 class PrivacyPolicy extends Component {
     constructor(props) {
         super(props)
     }
+
     componentDidMount() {
         window.scrollTo(0, 0)
     }
+
     render() {
         return (
             <div>
                 {/*hero section start*/}
                 <section className="position-relative">
-                    <Pageheading foldername={"Utilities"} title={"Privacy Policy"} />
+                    <Pageheading foldername={"Utilities"} title={"Privacy Policy"}/>
                 </section>
                 {/*hero section end*/}
                 {/*body content start*/}
@@ -23,96 +25,93 @@ class PrivacyPolicy extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12 col-md-12">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem error quae illo excepturi nostrum blanditiis laboriosam magnam explicabo.</p>
-                                    <p>eum nihil expedita dolorum odio dolorem, explicabo rem illum magni perferendis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem error quae illo excepturi nostrum blanditiis laboriosam magnam explicabo. Molestias, eum nihil expedita dolorum odio dolorem, explicabo rem illum magni perferendis.</p>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem error quae illo excepturi nostrum blanditiis laboriosam magnam explicabo. Molestias, eum nihil expedita dolorum odio dolorem, explicabo rem illum magni perferendis.</p>
-                                    <h4 className="mt-5 text-primary">Personal Information</h4>
-                                    <div className="d-flex align-items-center mb-3">
-                                        <div className="badge-primary-soft rounded p-1">
-                                            <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-check">
-                                                <polyline points="20 6 9 17 4 12" />
-                                            </svg>
-                                        </div>
-                                        <p className="mb-0 ms-3">Lorem ipsum dolor sit amet, consectetur</p>
-                                    </div>
-                                    <div className="d-flex align-items-center mb-3">
-                                        <div className="badge-primary-soft rounded p-1">
-                                            <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-check">
-                                                <polyline points="20 6 9 17 4 12" />
-                                            </svg>
-                                        </div>
-                                        <p className="mb-0 ms-3">Quidem error quae illo excepturi nostrum blanditiis laboriosam</p>
-                                    </div>
-                                    <div className="d-flex align-items-center mb-3">
-                                        <div className="badge-primary-soft rounded p-1">
-                                            <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-check">
-                                                <polyline points="20 6 9 17 4 12" />
-                                            </svg>
-                                        </div>
-                                        <p className="mb-0 ms-3">Molestias, eum nihil expedita dolorum odio dolorem</p>
-                                    </div>
-                                    <div className="d-flex align-items-center mb-3">
-                                        <div className="badge-primary-soft rounded p-1">
-                                            <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-check">
-                                                <polyline points="20 6 9 17 4 12" />
-                                            </svg>
-                                        </div>
-                                        <p className="mb-0 ms-3">Eum nihil expedita dolorum odio dolorem</p>
-                                    </div>
-                                    <div className="d-flex align-items-center">
-                                        <div className="badge-primary-soft rounded p-1">
-                                            <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-check">
-                                                <polyline points="20 6 9 17 4 12" />
-                                            </svg>
-                                        </div>
-                                        <p className="mb-0 ms-3">Explicabo rem illum magni perferendis</p>
-                                    </div>
-                                    <p className="mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ex, quisquam. Nulla excepturi sint iusto incidunt sed omnis expedita, commodi dolores. Debitis nemo animi quia deleniti commodi nesciunt illo. Deserunt.</p>
-                                    <h4 className="mt-5 text-primary">Use of User Information.</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ex, quisquam. Nulla excepturi sint iusto incidunt sed omnis expedita, commodi dolores. Debitis nemo animi quia deleniti commodi nesciunt illo. Deserunt.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ex, quisquam. Nulla excepturi sint iusto incidunt sed omnis expedita, commodi dolores. Debitis nemo animi quia deleniti commodi nesciunt illo. Deserunt.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ex, quisquam. Nulla excepturi sint iusto incidunt sed omnis expedita, commodi dolores. Debitis nemo animi quia deleniti commodi nesciunt illo. Deserunt.</p>
-                                    <h4 className="mt-5 text-primary">Disclosure of User Information.</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ullam nostrum dolor alias aspernatur nobis suscipit eaque cumque distinctio eos, beatae deserunt, nihil nam maiores vero, eius harum. Reprehenderit, aspernatur.</p>
-                                    <div className="d-flex align-items-center mb-3">
-                                        <div className="badge-primary-soft rounded p-1">
-                                            <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-check">
-                                                <polyline points="20 6 9 17 4 12" />
-                                            </svg>
-                                        </div>
-                                        <p className="mb-0 ms-3">Lorem ipsum dolor sit amet, consectetur</p>
-                                    </div>
-                                    <div className="d-flex align-items-center mb-3">
-                                        <div className="badge-primary-soft rounded p-1">
-                                            <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-check">
-                                                <polyline points="20 6 9 17 4 12" />
-                                            </svg>
-                                        </div>
-                                        <p className="mb-0 ms-3">Quidem error quae illo excepturi nostrum blanditiis laboriosam</p>
-                                    </div>
-                                    <div className="d-flex align-items-center mb-3">
-                                        <div className="badge-primary-soft rounded p-1">
-                                            <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-check">
-                                                <polyline points="20 6 9 17 4 12" />
-                                            </svg>
-                                        </div>
-                                        <p className="mb-0 ms-3">Molestias, eum nihil expedita dolorum odio dolorem</p>
-                                    </div>
-                                    <div className="d-flex align-items-center mb-3">
-                                        <div className="badge-primary-soft rounded p-1">
-                                            <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-check">
-                                                <polyline points="20 6 9 17 4 12" />
-                                            </svg>
-                                        </div>
-                                        <p className="mb-0 ms-3">Eum nihil expedita dolorum odio dolorem</p>
-                                    </div>
-                                    <div className="d-flex align-items-center">
-                                        <div className="badge-primary-soft rounded p-1">
-                                            <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-check">
-                                                <polyline points="20 6 9 17 4 12" />
-                                            </svg>
-                                        </div>
-                                        <p className="mb-0 ms-3">Explicabo rem illum magni perferendis</p>
-                                    </div>
-                                    <p className="mt-5 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, ex, quisquam. Nulla excepturi sint iusto incidunt sed omnis expedita, commodi dolores. Debitis nemo animi quia deleniti commodi nesciunt illo. Deserunt.</p>
+                                    <p>Privacy Policy </p>
+                                    <p>Last updated: April 5, 2024</p>
+
+                                    <p>Introduction</p>
+                                    <p>
+                                        Welcome to Vip Technologies! This Privacy Policy outlines how we collect, use,
+                                        share, and protect your personal information when you visit our website 1.
+                                        Please
+                                        read this policy carefully to understand our practices and how we handle your
+                                        data.
+                                    </p>
+                                    <p>
+                                        Information We Collect
+                                        We may collect the following types of information:
+                                    </p>
+
+                                    <p>
+                                        Personal Information: When you interact with our website, we may collect
+                                        personal
+                                        details such as your name, email address, and phone number.
+                                        Usage Data: We automatically collect information about your interactions with
+                                        our
+                                        website, including your IP address, browser type, and pages visited.
+                                        Cookies: We use cookies and similar tracking technologies to enhance your
+                                        browsing
+                                        experience and analyze website traffic.
+                                    </p>
+                                    <p>
+                                        How We Use Your Information
+                                        We use your information for the following purposes:
+                                    </p>
+
+
+                                    <p>
+                                        Provide Services: To deliver the services you request, such as responding to
+                                        inquiries or processing orders.
+                                    </p>
+                                    <p>
+                                        Improve User Experience: To enhance our website’s functionality and tailor
+                                        content
+                                        to your preferences.
+                                    </p>
+                                    <p>
+                                        Analytics: We analyze user behavior to improve our website’s performance and
+                                        optimize content.
+                                    </p>
+                                    <p>
+                                        Data Sharing and Disclosure
+                                        We do not sell, trade, or rent your personal information to third parties.
+                                        However,
+                                        we may share your data with:
+                                    </p>
+
+
+                                    <p>
+                                        Service Providers: We work with trusted service providers who assist us in
+                                        operating
+                                        our website and delivering services.
+                                        Legal Compliance: We may disclose information if required by law or to protect
+                                        our
+                                        rights and safety.
+                                        Your Rights
+                                        You have the right to:
+                                    </p>
+
+                                    <p>
+                                        Access: Request access to the personal information we hold about you.
+                                        Correction: Correct any inaccuracies in your data.
+                                        Deletion: Request deletion of your personal information.
+                                        Security
+                                        We take reasonable measures to protect your data from unauthorized access,
+                                        alteration, or disclosure.
+                                    </p>
+
+                                    <p>
+                                        Changes to This Policy
+                                        We may update this Privacy Policy periodically. Any changes will be posted on
+                                        this
+                                        page.
+                                    </p>
+                                    <p>
+                                        Contact Us
+                                        If you have any questions or concerns about our Privacy Policy, please contact
+                                        us at
+                                        <a href="mailto:admin@viptechnologies.in"> admin@viptechnologies.in</a>
+                                    </p>
+
                                 </div>
                             </div>
                         </div>
