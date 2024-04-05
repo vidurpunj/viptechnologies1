@@ -8,13 +8,13 @@ import {toast} from "react-toastify";
 const Footer = () => {
     const [email, setEmail] = useState('');
     const apiUrl = `${window.env.REACT_APP_API}/news_letter/subscribe`;
-    const postData = {
-        email: email
-    }
-    console.log(postData);
 
     const handleSubmit = () => {
         console.log('subscribe to new letter');
+        const postData = {
+            email: email
+        }
+        console.log(postData);
         axios.post(apiUrl, postData)
             .then((response) => {
                 if(response.data.status === 500){
