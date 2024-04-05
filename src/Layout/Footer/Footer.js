@@ -118,9 +118,6 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                     <li className="list-inline-item"><Link className="text-light ic-2x" to="#"><i
-                                        className="la la-dribbble"/></Link>
-                                    </li>
-                                    <li className="list-inline-item"><Link className="text-light ic-2x" to="#"><i
                                         className="la la-instagram"/></Link>
                                     </li>
                                     <li className="list-inline-item"><Link className="text-light ic-2x" to="#"><i
