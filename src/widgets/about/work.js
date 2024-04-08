@@ -52,8 +52,33 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+                <div className="row align-items-center justify-content-between">
+                    <div className="col-12 col-lg-6 order-lg-2 mb-6 mb-lg-0">
+                        <amp-ad width="100vw" height="320"
+                                type="adsense"
+                                data-ad-client="ca-pub-9356696992346630"
+                                data-ad-slot="9089834951"
+                                data-auto-format="rspv"
+                                data-full-width="">
+                            <div overflow=""></div>
+                        </amp-ad>
+                    </div>
+                    <div className="col-12 col-lg-6 col-xl-5 order-lg-1">
+                        <div className="d-flex align-items-center">
+                            <amp-ad width="100vw" height="320"
+                                    type="adsense"
+                                    data-ad-client="ca-pub-9356696992346630"
+                                    data-ad-slot="9089834951"
+                                    data-auto-format="rspv"
+                                    data-full-width="">
+                                <div overflow=""></div>
+                            </amp-ad>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
+
     );
 };
 
