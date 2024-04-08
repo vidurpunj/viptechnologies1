@@ -109,6 +109,22 @@ const Contact1 = () => {
                         </Row>
                         <ContactForm1/>
                     </Container>
+                    <Container>
+                        <Row className="justify-content-center mb-5 text-center">
+                            <Col lg="8">
+                                <div>
+                                    <amp-ad width="100vw" height="320"
+                                            type="adsense"
+                                            data-ad-client="ca-pub-9356696992346630"
+                                            data-ad-slot="1977631697"
+                                            data-auto-format="rspv"
+                                            data-full-width="">
+                                        <div overflow=""></div>
+                                    </amp-ad>
+                                </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </section>
             </div>
             {/* body content end */}
