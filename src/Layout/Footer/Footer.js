@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import {Col, Container, Row} from 'reactstrap';
-import { useState } from 'react';
+import {useState} from 'react';
 import axios from "axios";
 import {toast} from "react-toastify";
 
@@ -10,26 +10,36 @@ const Footer = () => {
     const apiUrl = `${window.env.REACT_APP_API}/news_letter/subscribe`;
 
     const handleSubmit = () => {
+
         console.log('subscribe to new letter');
         const postData = {
             email: email
         }
-        console.log(postData);
-        axios.post(apiUrl, postData)
-            .then((response) => {
-                if(response.data.status === 500){
-                    toast.error(response.data.error);
-                }else if(response.data.status === 200) {
-                    toast.success(response.data.message);
-                    // Reset form fields if needed
-                    this.setState({
-                        email: "",
-                    });
-                }
-            })
-            .catch((error) => {
+        // check if email is correct
+        const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-            });
+        let result = emailPattern.test(email);
+        console.log(`result: ${result}`);
+        console.log(postData);
+        if (result) {
+            axios.post(apiUrl, postData)
+                .then((response) => {
+                    if (response.data.status === 500) {
+                        toast.error(response.data.error);
+                    } else if (response.data.status === 200) {
+                        toast.success(response.data.message);
+                        // Reset form fields if needed
+                        this.setState({
+                            email: "",
+                        });
+                    }
+                })
+                .catch((error) => {
+
+                });
+        }else{
+            toast.error("Please provide a valid email.");
+        }
     }
 
     return (
