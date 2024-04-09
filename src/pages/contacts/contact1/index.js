@@ -112,12 +112,13 @@ const Contact1 = () => {
                     <Container>
                         <Row className="justify-content-center mb-5 text-center">
                             <Col lg="8">
-                                <div>
-                                    <amp-ad width="100vw" height="320"
+                                <div  width="100vw" height="320" style={{display: 'inline-block', border: '1px solid black'}}>
+                                    <amp-ad width="100%" height="320px"
                                             type="adsense"
                                             data-ad-client="ca-pub-9356696992346630"
                                             data-ad-slot="1977631697"
                                             data-auto-format="rspv"
+                                            data-adtest="on"
                                             data-full-width="">
                                         <div overflow=""></div>
                                     </amp-ad>

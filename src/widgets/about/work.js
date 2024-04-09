@@ -65,11 +65,12 @@ const Work = () => {
                     </div>
                     <div className="col-12 col-lg-6 col-xl-5 order-lg-1">
                         <div className="d-flex align-items-center">
-                            <amp-ad width="100vw" height="320"
+                            <amp-ad width="100%" height="320px"
                                     type="adsense"
                                     data-ad-client="ca-pub-9356696992346630"
                                     data-ad-slot="9089834951"
                                     data-auto-format="rspv"
+                                    data-adtest="on"
                                     data-full-width="">
                                 <div overflow=""></div>
                             </amp-ad>
